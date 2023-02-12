@@ -12,4 +12,5 @@
 #include "freertos/FreeRTOS.h"
 #include "HC_SR04.h"
 #include "esp_check.h"
+#include "pwm.h"
 #endif

@@ -57,7 +57,7 @@ void app_main(void)
     // gpio_set_level(LCD_BACKLIGHT,1);
     init();
     i2c_init();
-    
+    pwm_init();
     
     lcdI2C.print("SpiritBoi",0,0);
     xTaskCreate(Task_Ultrasonic,"TaskUltrasonic",2048,NULL,2,&tUltrasonic);
