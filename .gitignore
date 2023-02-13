@@ -1,0 +1,6 @@
+build
+.devcontainer
+.vscode
+components
+.gitmodules
+sdkconfig.old

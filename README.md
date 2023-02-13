@@ -21,9 +21,10 @@ git submodule add <đường link thư viện> <components>
 #### Bảng kết nối phần cứng:
 **Ghi chú**: 
 - Có thể gán lại các chân sử dụng thông qua ``menuconfig`` 
-- Vì chân I2C không kết nối điện trở kéo lên trên board nên cần cấu hình trở kéo nội 
+- Vì chân I2C không kết nối điện trở kéo lên trên board nên cần cấu hình trở kéo nội
+ 
 | GPIO|   Chức năng     |
-| ----| --------------  |
+|-----|-----------------|
 |  27 | Đèn nền LCD     |
 |  22 | SCL             |
 |  21 | SDA             |
