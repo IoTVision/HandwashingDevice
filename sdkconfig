@@ -329,6 +329,14 @@ CONFIG_ESP_WIFI_AUTH_WPA2_PSK=y
 # end of Custom WIFI Configuration
 
 #
+# Custom Ultrasonic HC_SR04 Setting
+#
+CONFIG_GPIO_RANGE_MAX=33
+CONFIG_HC_SR04_TRIGGER_GPIO=26
+CONFIG_HC_SR04_ECHO_GPIO=25
+# end of Custom Ultrasonic HC_SR04 Setting
+
+#
 # Custom LCD I2C mapping
 #
 CONFIG_LCD_RS_PIN=0
@@ -341,14 +349,6 @@ CONFIG_LCD_D7_PIN=7
 CONFIG_COLLUNMS=16
 CONFIG_ROWS=2
 # end of Custom LCD I2C mapping
-
-#
-# Custom Ultrasonic HC_SR04 Setting
-#
-CONFIG_GPIO_RANGE_MAX=33
-CONFIG_HC_SR04_TRIGGER_GPIO=26
-CONFIG_HC_SR04_ECHO_GPIO=25
-# end of Custom Ultrasonic HC_SR04 Setting
 
 #
 # Custom PWM Setting
@@ -1515,6 +1515,11 @@ CONFIG_WPA_MBEDTLS_TLS_CLIENT=y
 # CONFIG_WPA_11R_SUPPORT is not set
 # CONFIG_WPA_WPS_SOFTAP_REGISTRAR is not set
 # end of Supplicant
+
+#
+# Custom LCD I2C mapping
+#
+# end of Custom LCD I2C mapping
 
 #
 # Wifi Manager Configuration
