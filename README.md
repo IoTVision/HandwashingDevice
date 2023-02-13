@@ -30,6 +30,7 @@ git submodule add <đường link thư viện> <components>
 |  21 | SDA             |
 |  25 | HC_SR04 ECHO    |
 |  26 | HC_SR04 TRIGGER |
+|  12 | Relay           |
 
 ##### Thứ tự chân LCD kết nối với PCF8574:
 | PCF8574   | LCD 16x2  |
