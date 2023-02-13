@@ -2,7 +2,7 @@
 
 ## Tổng quan
 
-Máy rửa tay phục vụ cho học tập STEM, sử dụnghcảm biến siêu âm HC-SR04 để phát hiện thay đổi khoảng cách, điều khiển relay để đóng ngắt máy bơm và có màn hình LCD 16x2 để hiển thị
+Máy rửa tay phục vụ cho học tập STEM, sử dụng cảm biến siêu âm HC-SR04 để phát hiện thay đổi khoảng cách, điều khiển relay để đóng ngắt máy bơm và có màn hình LCD 16x2 để hiển thị
 ![Alt text](Image/HandwashingDevice.jpg)
 
 ## Hướng dẫn sử dụng project
